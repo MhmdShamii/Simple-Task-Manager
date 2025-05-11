@@ -100,19 +100,19 @@ function Form({ onSubmit, children, currInput = "", currLevel = "easy" }) {
 }
 
 function TasksList({ TaskList, onDelete, onSelectTask }) {
-  return (
-    TaskList.length > 0 && (
-      <ul>
-        {TaskList.map((task) => (
-          <Task
-            task={task}
-            key={task.id}
-            onDelete={onDelete}
-            onSelectTask={onSelectTask}
-          />
-        ))}
-      </ul>
-    )
+  return TaskList.length > 0 ? (
+    <ul>
+      {TaskList.map((task) => (
+        <Task
+          task={task}
+          key={task.id}
+          onDelete={onDelete}
+          onSelectTask={onSelectTask}
+        />
+      ))}
+    </ul>
+  ) : (
+    <p className="empty">There is no tasks</p>
   );
 }
 

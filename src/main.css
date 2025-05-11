@@ -119,3 +119,7 @@ ul li button {
   padding: 5px;
   border-radius: 20px;
 }
+.empty {
+  color: red;
+  text-align: center;
+}
