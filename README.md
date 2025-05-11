@@ -22,7 +22,7 @@ A simple and intuitive task management app built with **React**. This app allows
 
 ## 📸 Demo
 
-![Task Manager Screenshot](screenshot.png) <!-- Optional: include screenshot if available -->
+![Task Manager Screenshot](![alt text](image.png))) <!-- Optional: include screenshot if available -->
 
 ---
 
